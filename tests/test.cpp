@@ -48,3 +48,8 @@ TEST(PerimeterSuite, OneZeroPerimeter){
     Rectangle rect = Rectangle(0,75);
     EXPECT_EQ(rect.perimeter(), 150);
 }
+
+int main() {
+    ::testing::InitGoogleTest();
+    return RUN_ALL_TESTS();
+}
